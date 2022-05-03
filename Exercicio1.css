@@ -1,0 +1,101 @@
+* {
+    box-sizing: content-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #112B3C;
+
+    margin: 0;
+}
+
+.container {
+    margin: 20px 180px;
+    border: 1px solid white;
+    color: #EFEFEF;
+    text-align: center;
+    background-color: #205375;
+    padding: 10px;
+}
+
+.felpAnao {
+
+    position: relative;
+    border: 1px solid white;
+    width: 50%;
+    max-width: 350px;
+    margin: auto;
+    position: relative;
+}
+
+#felp {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .05s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.felpAnao:hover .overlay {
+    opacity: 1;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.date {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: fit-content;
+    color: #112B3C;
+}
+
+.dateAno {
+    padding: 10px;
+    width: fit-content;
+    background-color: #b9520d;
+    font-weight: bold;
+}
+
+.dateDesc {
+    height: 20px;
+    background-color: #F66B0E;
+    margin: 9px 0px 9px 0px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
